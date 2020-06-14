@@ -340,6 +340,20 @@ dtb-$(CONFIG_ARCH_MSM8909) += msm8909-pm8916-mtp.dtb \
 	apq8009-ext-codec-dragon.dtb \
 	apq8009-dragon.dtb
 
+dtb-$(CONFIG_ARCH_MSM8996) := 01_dtbdump_Qualcomm_Technologies,_Inc._MSM8994_MTP.dtb \
+	02_dtbdump_Qualcomm_Technologies,_Inc._MSM8994v2.0_MTP.dtb \
+	03_dtbdump_Qualcomm_Technologies,_Inc._MSM8994v2.1_MTP.dtb \
+	04_dtbdump_Qualcomm_Technologies,_Inc._MSM8994_MTP.dtb \
+	05_dtbdump_Qualcomm_Technologies,_Inc._MSM8994v2.0_MTP.dtb \
+	06_dtbdump_Qualcomm_Technologies,_Inc._MSM8994v2.1_MTP.dtb \
+	07_dtbdump_Qualcomm_Technologies,_Inc._MSM8994_MTP.dtb \
+	08_dtbdump_Qualcomm_Technologies,_Inc._MSM8994v2.0_MTP.dtb \
+	09_dtbdump_Qualcomm_Technologies,_Inc._MSM8994v2.1_MTP.dtb \
+	10_dtbdump_Qualcomm_Technologies,_Inc._MSM8994_MTP.dtb \
+	11_dtbdump_Qualcomm_Technologies,_Inc._MSM8994v2.0_MTP.dtb \
+	12_dtbdump_Qualcomm_Technologies,_Inc._MSM8994v2.1_MTP.dtb
+	
+
 ifeq ($(CONFIG_ARM64),y)
 always          := $(dtb-y)
 subdir-y        := $(dts-dirs)
